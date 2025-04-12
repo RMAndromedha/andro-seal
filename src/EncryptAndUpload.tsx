@@ -52,6 +52,13 @@ export function WalrusUpload({ policyObject, cap_id, moduleName }: WalrusUploadP
   });
 
   const services: WalrusService[] = [
+    
+    {
+      id: 'service1',
+      name: 'walrus.space',
+      publisherUrl: '/publisher1',
+      aggregatorUrl: '/aggregator1',
+    },
     {
       id: 'service2',
       name: 'staketab.org',
